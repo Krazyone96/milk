@@ -44,6 +44,7 @@ body{
 .quiz_box.activeQuiz{
 	position: absolute;
 	height: 50%;
+	max-height: fit-content;
 	width: 80%;
 	opacity: 1;
 	z-index: 5;
@@ -300,7 +301,6 @@ section .option_list .option .icon{
 footer{
 	height: 60px;
 	padding: 0 30px;
-	position: absolute;
 	background: #ff00ff;
 	display: flex;
 	align-items: center;
