@@ -21,7 +21,7 @@ start_btn.onclick = ()=>{
 // if exitQuiz button is clicked 
 
 exit_btn.onclick = ()=>{
-	window.location.reload(); //reload the current window
+	window.location.href="https://krazyone96.github.io/fssai/"; //Go to main quiz page
 	//info_box.classList.remove("activeInfo"); //hide info box
 }
 
