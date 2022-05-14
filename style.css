@@ -310,6 +310,7 @@ footer{
 
 footer .total_que{
 	height: 40px;
+	width: fit-content;
 	font-size: 18px;
 	line-height: 10px;
 	display: flex;
