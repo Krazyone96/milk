@@ -499,7 +499,7 @@ section .option_list .option .icon{
 
 footer{
 	height: 60px;
-	padding: 0 30px;
+	padding: 0px;
 	background: #fff;
 	display: flex;
 	align-items: center;
@@ -512,14 +512,14 @@ footer .total_que{
 	width: fit-content;
 	font-size: 18px;
 	display: flex;
-	text-align: center;
+	text-align: top;
 	user-select: none;
 	background: #ff0000;
 	border-radius: 10px;
 }
 
 footer .total_que span p{
-	text-align: center;
+	text-align: top;
 	font-weight: 500;
 	padding: 0 5px;
 }
@@ -530,7 +530,8 @@ footer .total_que span p:first-child{
 
 footer .finish_btn{
 	height: 55px;
-	padding: 0 5px; 
+	width: fit-content;
+	padding: 0px; 
 	font-size: 18px;
 	font-weight: 400;
 	cursor: pointer;
@@ -553,8 +554,9 @@ footer .finish_btn:hover{
 }
 
 footer .next_btn{
-	height: 40px;
-	padding: 0 13px;
+	height: 55px;
+	width: fit-content;
+	padding: 0px;
 	font-size: 18px;
 	font-weight: 400;
 	cursor: pointer;
