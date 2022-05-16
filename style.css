@@ -308,20 +308,22 @@ body{
 
 .info_box .buttons .quit{
 	position: absolute;
+	left: 0;
 	background: #33cc33; 
 	color: #000000;
-	margin: 0 10px;
+	margin: 0 5px;
 	height: 45px;
-	padding: 0 20px;
+	width: fit-content;
 	font-size: 18px;
 	font-weight: 500;
 	cursor: pointer;
 	border: none;
 	outline: none;
-	border-radius: 10px;
+	border-radius: 10bpx;
 	border: 1px solid #007bff;
-	transition: ease;
+	transition: all 0.3s ease;
 }
+
 
 .info_box .buttons .restart{
 	position: absolute;
@@ -329,16 +331,16 @@ body{
 	background: #33cc33; 
 	color: #000000;
 	margin: 0 5px;
-	height: fit-content;
+	height: 45px;
 	width: fit-content;
 	font-size: 18px;
 	font-weight: 500;
 	cursor: pointer;
 	border: none;
 	outline: none;
-	border-radius: 10px;
+	border-radius: 10bpx;
 	border: 1px solid #007bff;
-	transition: ease;
+	transition: all 0.3s ease;
 }
 
 .quiz_box{
@@ -546,7 +548,7 @@ footer button{
 }
 
 footer button:hover{
-	background: #0263ca;
+	background: #00ff00;
 }
 
 footer button.show{
