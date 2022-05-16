@@ -278,7 +278,7 @@ body{
 	opacity: 0;
 	pointer-events: none;
 	transition: ease;
-
+}
 
 .info_box .info_title{
 	height: 60px;
