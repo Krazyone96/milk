@@ -117,8 +117,8 @@ body{
 
 .q_btn.activeInfo{
 	position: absolute;
-	left:60%;
-	top: 65%; 
+	left: 70%;
+	top: 70%; 
 	height: fit-content;
 	width: fit-content;
 	opacity: 1;
@@ -172,8 +172,8 @@ body{
 
 .start_btn.activeInfo{
 	position: absolute;
-	top: 65%;
-	left:40%;
+	top: 70%;
+	left: 20%;
 	height: fit-content;
 	width: fit-content;
 	opacity: 1;
