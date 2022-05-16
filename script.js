@@ -1,4 +1,4 @@
-//selecting all required elements 
+//selecting all required elements
 
 const play_btn = document.querySelector(".play_btn button");
 const dropdown_box = document.querySelector(".dropdown_box");
