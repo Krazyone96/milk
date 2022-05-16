@@ -54,11 +54,5 @@ for (let a = questions.length - 1; a>0; a--){
 	questions[a] = questions[b]
 	questions[b] = c
 	}
-];
 
-for (let i = questions.length - 1; i>0; i--){
-	let j = Math.floor(Math.random() * i)
-	let k = questions[i]
-	questions[i] = questions[j]
-	questions[j] = k
-	}
+
