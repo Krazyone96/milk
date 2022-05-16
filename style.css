@@ -511,7 +511,6 @@ footer .total_que{
 	height: 55px;
 	width: fit-content;
 	font-size: 18px;
-	line-height: 10px;
 	display: flex;
 	text-align: center;
 	user-select: none;
@@ -529,8 +528,32 @@ footer .total_que span p:first-child{
 	padding-left: 0px;
 }
 
-footer button{
+footer .finish_btn{
 	height: 55px;
+	padding: 0 5px; 
+	font-size: 18px;
+	font-weight: 400;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	color: #000000;
+	border-radius: 10px;
+	background: #ff6633;
+	line-height: 55px; 
+	opacity: 0;
+	pointer-events: none;
+	transform: scale(0.95);
+	transition: all 0.3s ease;
+	display: flex;
+	text-align: center;
+}
+
+footer .finish_btn:hover{
+	background: #ff0000;
+}
+
+footer .next_btn{
+	height: 40px;
 	padding: 0 13px;
 	font-size: 18px;
 	font-weight: 400;
@@ -539,8 +562,9 @@ footer button{
 	outline: none;
 	color: #000000;
 	border-radius: 10px;
-	background: #009933;
-	line-height: 10px;
+	background: #33cc33;
+	line-height: 40px; 
+	text-align: center;
 	opacity: 0;
 	pointer-events: none;
 	transform: scale(0.95);
@@ -548,9 +572,10 @@ footer button{
 	display: flex;
 }
 
-footer button:hover{
+footer .next_btn:hover{
 	background: #00ff00;
 }
+
 
 footer button.show{
 	opacity: 1;
