@@ -510,7 +510,7 @@ footer{
 footer .total_que{
 	height: 55px;
 	width: fit-content;
-	font-size: 18px;
+	font-size: 1vw;
 	display: flex;
 	text-align: top;
 	user-select: none;
@@ -532,7 +532,7 @@ footer .finish_btn{
 	height: 55px;
 	width: fit-content;
 	padding: 0px; 
-	font-size: 18px;
+	font-size: 1vw;
 	font-weight: 400;
 	cursor: pointer;
 	border: none;
@@ -557,7 +557,7 @@ footer .next_btn{
 	height: 55px;
 	width: fit-content;
 	padding: 0px;
-	font-size: 18px;
+	font-size: 1vw;
 	font-weight: 400;
 	cursor: pointer;
 	border: none;
