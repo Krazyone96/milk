@@ -309,7 +309,7 @@ body{
 .info_box .buttons .quit{
 	position: absolute;
 	left: 0;
-	background: #33cc33; 
+	background: #ff0000; 
 	color: #000000;
 	margin: 0 5px;
 	height: 45px;
@@ -631,5 +631,5 @@ footer button.show{
 
 .buttons button.quit:hover{
 	color: #000;
-	background: #009933;
+	background: #cc3300;
 }
