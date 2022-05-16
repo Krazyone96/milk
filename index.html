@@ -5,21 +5,69 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Additives Regulations Quiz</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style1.css">
 
 </head>
 
 <body>
+		
+	<!--Play Quiz button -->
+	
+	<div class="play_btn"><button>Play Quiz</button></div> 
+	
+	<!-- No of Q-->
+	
+	<div class="dropdown_box">
+		<div class="dropdown">	
+			<select id ="NoQ">
+				<option value=0>Choose Number of Questions</option>
+				<option value=1>1</option>
+				<option value=2>2</option>
+				<option value=3>3</option>
+			</select>
+		</div>
+	</div>
 
 	<!--start Quiz button -->
 	
-	<div class="start_btn"><button>Start Quiz</button></div>
+	<div class="start_btn">
+		<div class="start">
+		<button>Start Quiz</button>
+		</div>
+	</div>
 	
 	<!-- Info Box-->
 	
+	<div class="dropdown_box">
+		<div class="dropdown">	
+			<select id ="NoQ">
+				<option value=0>Choose Number of Questions</option>
+				<option value=1>1</option>
+				<option value=2>2</option>
+				<option value=3>3</option>
+			</select>
+		</div>
+	</div>
+	
+	<div class="error_btn">
+	<span id="error"></span>
+	</div>
+	
+	<div class="ready_btn">
+		<div class="ready">
+		<button>Ready</button>
+		</div>
+	</div>
+	<p id="Error-Name"></p>
+	<div class="q_btn">
+		<div class="ques">
+	<button onclick="chooseNoQ()"> Done</button>
+	</div>
+	</div>
+	
 	<div class="info_box">
 		
-		<div class="info-title"><span>Some Rules of this Quiz</span></div>
+		<div class="info-title"><span>------RULES------</span></div>
 		
 		<div class="info-list">
 		
@@ -75,7 +123,7 @@
 			</div>
 			
 			<button class="next_btn">Next Question</button>
-			
+			<button class="finish_btn">Finish Quiz</button>
 		</footer>
 		
 	</div>
@@ -98,11 +146,13 @@
 		</div>
 		
 		<!-- The questions and options is inserted in this JavaScript file -->
-		<script src="questions.js"></script>
+		 <script src="js/questions.js"></script> 
 		
 		
 		<!-- All Quiz codes are inserted in this JavaScript file -->
-		<script src="script.js"></script>
+		<script src="js/script1.js"></script>
 		
 </body>
 </html>
+		
+
