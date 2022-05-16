@@ -1,6 +1,6 @@
-// creating an array and passing the nuimber, questions, options and answers
+// creating a database of questions
 
-let questions = [
+let data = [
 	{
 	numb: 1,
 	question: "What is the fat content of Low Fat Cream?",
@@ -17,10 +17,10 @@ let questions = [
 	question: "What is the fat content of Medium Fat Cream?",
 	answer: "40.0%",
 	options: [
-		"60.0%",
-		"25.0%",
+		"40.0%",
 		"15.0%",
-		"40.0%"
+		"25.0%",
+		"60.0%"
 	]
 	},
 	{
@@ -30,10 +30,30 @@ let questions = [
 	options: [
 		"25.0%",
 		"60.0%",
-		"15.0%",
-		"40.0%"
+		"40.0%",
+		"15.0%"
 	]
 	},
+];
+
+
+for (let i = data.length - 1; i>0; i--){
+	let j = Math.floor(Math.random() * i)
+	let k = data[i]
+	data[i] = data[j]
+	data[j] = k
+	}
+
+// A second array to store the number of questions based on user selection
+let questions =[]
+
+
+for (let a = questions.length - 1; a>0; a--){
+	let b = Math.floor(Math.random()*a)
+	let c = questions[a]
+	questions[a] = questions[b]
+	questions[b] = c
+	}
 ];
 
 for (let i = questions.length - 1; i>0; i--){
