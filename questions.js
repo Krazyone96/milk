@@ -1,4 +1,4 @@
-// creating a database of questions
+// creating an array and passing the nuimber, questions, options and answers
 
 let data = [
 	{
@@ -44,7 +44,6 @@ for (let i = data.length - 1; i>0; i--){
 	data[j] = k
 	}
 
-// A second array to store the number of questions based on user selection
 let questions =[]
 
 
@@ -54,5 +53,4 @@ for (let a = questions.length - 1; a>0; a--){
 	questions[a] = questions[b]
 	questions[b] = c
 	}
-
 
