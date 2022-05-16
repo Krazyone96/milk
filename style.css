@@ -253,7 +253,18 @@ body{
 	transform: translate(-50%, -50%) scale(1); 
 }
 
-
+.ready_btn.activeInfo,
+.result_box.activeResult{
+	position: absolute;
+	height: fit-content;
+	width: fit-content;
+	opacity: 1;
+	z-index: 5;
+	pointer-events: auto;
+	text-align: justify;
+	transform: translate(-50%, -50%) scale(1);
+	transition: ease; 
+}
 
 .info_box{
 	height: 10%;
