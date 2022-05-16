@@ -1,6 +1,11 @@
-//selecting all required elemnts
+//selecting all required elements
 
-const start_btn = document.querySelector(".start_btn button");
+const play_btn = document.querySelector(".play_btn button");
+const dropdown_box = document.querySelector(".dropdown_box");
+const error_btn = document.querySelector(".error_btn")
+const q_btn = document.querySelector(".q_btn");
+const ready_btn = document.querySelector(".ready_btn");
+const start_btn = document.querySelector(".start_btn");
 const info_box = document.querySelector(".info_box");
 const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
@@ -11,18 +16,48 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
+
+// if Play Quiz button is clicked
+play_btn.onclick = ()=>{
+	play_btn.style.display ='none';
+	dropdown_box.classList.add("activeInfo");
+	q_btn.classList.add("activeInfo");
+	}
+
+/* When the user clicks on the button, 
+   toggle between hiding and showing the dropdown content */
+
+function myFunction(){
+	document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+function chooseNoQ(){
+		selectElement = document.querySelector('#NoQ');
+		q = selectElement.value;
+		if (q==0){
+			error_btn.classList.add("activeInfo")
+			error.textContent = "Error: Select an option and click 'Done'"
+			error.style.color = "red"
+			}else{
+				error_btn.style.display = 'none';
+				for(i=0; i<q; i++){questions[i]=data[i];};
+		start_btn.classList.add("activeInfo");
+		console.log(questions);}
+
 // if startQuiz button is clicked
+
 
 start_btn.onclick = ()=>{
 	start_btn.style.display = 'none';
+	dropdown_box.classList.add("activeInfo");
+	q_btn.style.display = 'none';
 	info_box.classList.add("activeInfo"); //show info box
 }
 
 // if exitQuiz button is clicked 
 
 exit_btn.onclick = ()=>{
-	window.location.href="https://krazyone96.github.io/fssai/"; //Go to main quiz page
-	//info_box.classList.remove("activeInfo"); //hide info box
+	window.location.reload(); //reload the current window
 }
 
 // if continueQuiz button clicked
@@ -69,10 +104,11 @@ restart_quiz.onclick = ()=>{
 
 // if quitQuiz button clicked
 quit_quiz.onclick = ()=>{
-	window.location.href="https://krazyone96.github.io/fssai/"; //Go to main quiz page
+	window.location.reload(); //reload the current window
 }
 
 const next_btn = document.querySelector("footer .next_btn");
+const finish_btn = document.querySelector("footer .finish_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
 // if Next Que button clicked
@@ -88,12 +124,19 @@ next_btn.onclick = ()=>{
 	startTimerLine(widthValue); //calling startTimerLine function
 	timeText.textContent = "Time Left"; //change the timeText to Time Left
 	next_btn.classList.remove("show"); //hide the next button
+	finish_btn.classList.remove("show");
 	}else{
+		//next_btn.classList.remove("show");
+		finish_btn.classList.add("finish_btn");
 		clearInterval(counter); //clear counter
 		clearInterval(counterLine); //clear counterLine
 		showResult(); //calling showResult function
 	}
 }
+
+finish_btn.onclick = ()=>{
+	showResult();
+	}
 
 // getting questions and options from array 
 
@@ -101,7 +144,7 @@ function showQuestions(index){
 	const que_text = document.querySelector(".que_text");
 	
 	//creating a new span and div tag for question and option and passing the value using array index
-	let que_tag = '<span>'+/* questions[index].numb + "." + */ questions[index].question +'</span>';
+	let que_tag = '<span>'/*+ questions[index].numb + "." */+ questions[index].question +'</span>';
 	let option_tag = '<div class="option"><span>'+ questions[index].options[0] +'</span></div>' + '<div class="option"><span>'+ questions[index].options[1] +'</span></div>' + '<div class="option"><span>'+ questions[index].options[2] +'</span></div>' + '<div class="option"><span>'+ questions[index].options[3] +'</span></div>';
 	que_text.innerHTML = que_tag; // adding new span tag inside que_tag
 	option_list.innerHTML = option_tag; //adding new div tag inside option_tag
@@ -117,6 +160,7 @@ function showQuestions(index){
 //creating the new div tags which for icons
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
+
 
 // if user clicked on option
 function optionSelected(answer){
@@ -150,8 +194,13 @@ function optionSelected(answer){
 	option_list.children[i].classList.add("disabled"); // all other options are disabled after the user selects an option 
   }
 	
-	
+	if(que_count < questions.length -1){
 	next_btn.classList.add("show"); //show the next button after the user selects an option
+	finish_btn.classList.add("show");
+	}else{
+		next_btn.classList.remove("show");
+		finish_btn.classList.add("show"); 
+}
 }
 
 function showResult(){
@@ -161,15 +210,15 @@ function showResult(){
 	const scoreText = result_box.querySelector(".score_text");
 	if (userScore > 3){ // if the user scored more than 3
 		//creating a new span tag and passing the user score number and total question number 
-		let scoreTag = '<span><p>and Congrats!, You got ' + userScore +' out of ' + questions.length +'</p></span>';
+		let scoreTag = '<span>and Congrats!, You got  ' + userScore +' out of ' + questions.length +'</span>';
 		scoreText.innerHTML = scoreTag; //adding new span tag inside score_Text
 	}
 	else if(userScore > 1){ // if the user scored more than 1
-		let scoreTag = '<span><p>and nice, You got ' + userScore +' out of ' + questions.length +'</p></span>';
+		let scoreTag = '<span>and nice, You got   ' + userScore +'  out of ' + questions.length +'</span>';
 		scoreText.innerHTML = scoreTag;
 	}
-	else{ // if the user scored less than 1
-		let scoreTag = '<span><p>and sorry, You got only'+ userScore +' out of'+ questions.length +'</p></span>';
+	else{ // if the user scored less than 1 
+		let scoreTag = '<span>and sorry, You got only  '+ userScore +' out of  '+ questions.length +'</span>';
 		scoreText.innerHTML = scoreTag;
 	}
 }
@@ -198,7 +247,13 @@ function startTimer(time){
 			for(i=0; i < allOptions; i++){
 				option_list.children[i].classList.add("disabled"); // all options are disabled after user selects an option
 			}
-			next_btn.classList.add("show"); //show the next button if user selected any option
+			if(que_count < questions.length -1){
+	next_btn.classList.add("show"); //show the next button after the user selects an option
+	finish_btn.classList.add("show");
+	}else{
+		next_btn.classList.remove("show");
+		finish_btn.classList.add("show"); 
+}
 		}
 	}
 }
@@ -207,7 +262,7 @@ function startTimerLine(time){
 	counterLine = setInterval(timer, 29);
 	function timer(){
 		time +=1; //upgrading time value with 1
-		time_line.style.width = time + "px"; //increasing width of time_line with px by time value
+		time_line.style.width = time*0.1833333 + "%"; //increasing width of time_line with px by time value
 		if(time > 549){ //if time value is greater than 549
 			clearInterval(counterLine); //clear counterLine
 		}
