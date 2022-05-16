@@ -120,7 +120,7 @@ body{
 	left: 70%;
 	top: 70%; 
 	height: fit-content;
-	width: fit-content;
+	width: 200px;
 	opacity: 1;
 	z-index: 5;
 	pointer-events: auto;
@@ -130,7 +130,7 @@ body{
 }
 
 .q_btn button{
-	max-width:fit-content;
+	max-width:200px;
 	font-size: 25px;
 	font-weight: 500;
 	color: #000000;
@@ -175,7 +175,7 @@ body{
 	top: 70%;
 	left: 30%;
 	height: fit-content;
-	width: fit-content;
+	width: 200px;
 	opacity: 1;
 	z-index: 5;
 	pointer-events: auto;
@@ -185,6 +185,7 @@ body{
 }
 
 .start_btn button{
+	width: 200px;
 	font-size: 25px;
 	font-weight: 500;
 	color: #000000;
