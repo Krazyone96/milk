@@ -173,7 +173,7 @@ body{
 .start_btn.activeInfo{
 	position: absolute;
 	top: 70%;
-	left: 20%;
+	left: 30%;
 	height: fit-content;
 	width: fit-content;
 	opacity: 1;
