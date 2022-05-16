@@ -43,6 +43,7 @@ function chooseNoQ(){
 				for(i=0; i<q; i++){questions[i]=data[i];};
 		start_btn.classList.add("activeInfo");
 		console.log(questions);}
+			}
 
 // if startQuiz button is clicked
 
