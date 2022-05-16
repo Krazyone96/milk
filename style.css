@@ -238,7 +238,7 @@ body{
 	transform: translate(-50%, -50%) scale(0.9);
 	opacity: 0;
 	pointer-events: none;
-	transition: all 0.3s ease;
+	transition: ease;
 }
 
 
@@ -277,7 +277,7 @@ body{
 	transform: translate(-50%, -50%) scale(0.9);
 	opacity: 0;
 	pointer-events: none;
-	transition: all 0.3s ease;
+	transition: ease;
 
 /*
 .info_box .info_title{
@@ -320,7 +320,7 @@ body{
 	outline: none;
 	border-radius: 10px;
 	border: 1px solid #007bff;
-	transition: all 0.3s ease;
+	transition: ease;
 }
 
 .info_box .buttons .restart{
@@ -336,9 +336,9 @@ body{
 	cursor: pointer;
 	border: none;
 	outline: none;
-	border-radius: 10bpx;
+	border-radius: 10px;
 	border: 1px solid #007bff;
-	transition: all 0.3s ease;
+	transition: ease;
 }
 
 .quiz_box{
