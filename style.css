@@ -500,7 +500,7 @@ section .option_list .option .icon{
 }
 
 footer{
-	height: 60px;
+	height: fit-content;
 	padding: 0px;
 	background: #fff;
 	display: flex;
