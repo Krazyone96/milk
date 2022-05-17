@@ -513,14 +513,14 @@ footer .total_que{
 	line-height: 13px;
 	font-size: 3.5vw;
 	display: flex;
-	text-align: top;
+	text-align: center;
 	user-select: none;
 	background: #ff0000;
 	border-radius: 10px;
 }
 
 footer .total_que span p{
-	text-align: top;
+	text-align: center;
 	font-weight: 500;
 	padding: 0 5px;
 }
