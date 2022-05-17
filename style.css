@@ -510,7 +510,7 @@ footer{
 footer .total_que{
 	height: 55px;
 	width: fit-content;
-	line-height: 13px;
+	line-height: 55px;
 	font-size: 3.5vw;
 	display: flex;
 	text-align: center;
