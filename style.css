@@ -131,6 +131,7 @@ body{
 
 .q_btn button{
 	width: 150px;
+	height: fit-content;
 	font-size: 25px;
 	font-weight: 500;
 	color: #000000;
@@ -186,6 +187,7 @@ body{
 
 .start_btn button{
 	width: 150px;
+	height: fit-content;
 	font-size: 25px;
 	font-weight: 500;
 	color: #000000;
