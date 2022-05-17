@@ -247,7 +247,7 @@ body{
 
 .quiz_box.activeQuiz{
 	position: absolute;
-	height: 50%;
+	height: fit-content;
 	width: 80%;
 	opacity: 1;
 	z-index: 5;
@@ -500,7 +500,7 @@ section .option_list .option .icon{
 }
 
 footer{
-	height: fit-content;
+	height: 60px;
 	padding: 0px;
 	background: #fff;
 	display: flex;
