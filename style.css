@@ -510,7 +510,8 @@ footer{
 footer .total_que{
 	height: 55px;
 	width: fit-content;
-	font-size: 3vw;
+	line-height: 15px;
+	font-size: 3.5vw;
 	display: flex;
 	text-align: top;
 	user-select: none;
@@ -532,7 +533,7 @@ footer .finish_btn{
 	height: 55px;
 	width: fit-content;
 	padding: 0px; 
-	font-size: 3vw;
+	font-size: 3.5vw;
 	font-weight: 400;
 	cursor: pointer;
 	border: none;
@@ -557,7 +558,7 @@ footer .next_btn{
 	height: 55px;
 	width: fit-content;
 	padding: 0px;
-	font-size: 3vw;
+	font-size: 3.5vw;
 	font-weight: 400;
 	cursor: pointer;
 	border: none;
@@ -565,7 +566,7 @@ footer .next_btn{
 	color: #000000;
 	border-radius: 10px;
 	background: #33cc33;
-	line-height: 40px; 
+	line-height: 55px; 
 	text-align: center;
 	opacity: 0;
 	pointer-events: none;
