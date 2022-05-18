@@ -43,7 +43,7 @@ let data = [
 	question: "______ means the product prepared by admixture of cow-milk or buffalo-milk or both with fresh skimmed milk or by admixture of cow or buffalo milk or both that has been standardised to fat and solids non-fat as per regulations",
 	answer: "Double Toned Milk",
 	options: [
-		"Toned Milk",
+		"Flavoured Milk",
 		"Double Toned Milk",
 		"Skimmed Milk",
 		"Recombined Milk",
@@ -253,10 +253,10 @@ let data = [
 	question: "Pasteruisation will show a ________",
 	answer: "negative Phosphatase test",
 	options: [
-		"Positive Phosphatase test",
-		"Negative Phosphatase test",
-		"Positive Catalase test",
-		"Negatice Catalase test",
+		"positive Phosphatase test",
+		"negative Phosphatase test",
+		"positive Catalase test",
+		"negatice Catalase test",
 		"None of the above"
 	]
 	},
