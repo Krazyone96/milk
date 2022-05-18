@@ -220,34 +220,10 @@ let data = [
 	]
 	},
 
+	
+
 	{
 	numb: 18,
-	question: "_____ means an emulsion of oils and fats in water",
-	answer: "Margarine",
-	options: [
-		"Lard",
-		"Margarine",
-		"Milk",
-		"Cream",
-		"None of the above"
-	]
-	},
-
-	{
-	numb: 19,
-	question: "Margarine is a/an __________",
-	answer: "Emulsion",
-	options: [
-		"Suspension",
-		"Emulsion",
-		"Colloid",
-		"Solution",
-		"None of the above"
-	]
-	},
-
-	{
-	numb: 20,
 	question: "Pasteurisation involves heating every part of milk to _________",
 	answer: "All the above",
 	options: [
@@ -260,7 +236,7 @@ let data = [
 	},
 	
 	{
-	numb:21,
+	numb:19,
 	question: "Pasteurisation involves heating every part of milk to __________",
 	answer: "All the above",
 	options: [
@@ -273,7 +249,7 @@ let data = [
 	},
 
 	{
-	numb: 22,
+	numb: 20,
 	question: "Pasteruisation will show a ________",
 	answer: "negative Phosphatase test",
 	options: [
@@ -286,7 +262,7 @@ let data = [
 	},
 
 	{
-	numb: 23,
+	numb: 21,
 	question: "All pasteurised milk of different class shall be cooled immediately to a temperature of _____",
 	answer: "10 deg C or less",
 	options: [
@@ -299,7 +275,7 @@ let data = [
 	},
 	
 	{
-	numb: 24,
+	numb: 22,
 	question: "____ means the homogenised product prepared from milk fat, non-fat milk solids and water",
 	answer: "Recombined milk",
 	options: [
@@ -312,7 +288,7 @@ let data = [
 	},
 
 	{
-	numb: 25,
+	numb: 23,
 	question: "Recombined milk means the _______ product prepared from milk fat, non-fat milk solids and water",
 	answer: "homogenised",
 	options: [
@@ -325,7 +301,7 @@ let data = [
 	},
 
 	{
-	numb: 26,
+	numb: 24,
 	question: "Recombined milk means the _______",
 	answer: "homogenised product prepared from milk fat, non-fat milk solids and water",
 	options: [
@@ -338,7 +314,7 @@ let data = [
 	},
 	
 	{
-	numb: 27,
+	numb: 25,
 	question: "______ means the product from milk from which almost all the milk fat has been removed mechanically",
 	answer: "Skimmed milk",
 	options: [
@@ -351,7 +327,7 @@ let data = [
 	},
 
 	{
-	numb: 28,
+	numb: 26,
 	question: "_______ means heating milk in sealed container continuously to a temperature of either 115 deg C for 15 minutes or at least 130 deg C for a period of one second in continous flow",
 	answer: "Sterilisation",
 	options: [
@@ -364,7 +340,7 @@ let data = [
 	},
 
 	{
-	numb: 29,
+	numb: 27,
 	question: "Sterilisation means heating milk in sealed container continuously to a temperature of _______",
 	answer: "Both a and b",
 	options: [
@@ -377,7 +353,7 @@ let data = [
 	},
 
 	{
-	numb: 30,
+	numb: 28,
 	question: "Sterilisation means _________",
 	answer: "All the above",
 	options: [
@@ -390,7 +366,7 @@ let data = [
 	},
 	
 	{
-	numb: 31,
+	numb: 29,
 	question: "_____ means the product prepared by admixture of cow or buffalo milk or both with fresh skimmed milk or by admixture of cow or buffalo milk or both that has been standardised to fat and solids non-fat percentage as per regulation",
 	answer: "Toned milk",
 	options: [
@@ -403,7 +379,7 @@ let data = [
 	},
 
 	{
-	numb: 32,
+	numb: 30,
 	question: "Toned milk means the product prepared by __________",
 	answer: "All the above",
 	options: [
