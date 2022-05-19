@@ -426,7 +426,7 @@ section{
 }
 
 section .que_text{
-	font-size: 4vw;
+	font-size: min(4vw, 25px);
 	font-weight: 600px;
 }
 
