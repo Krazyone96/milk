@@ -4,219 +4,219 @@ let data = [
 	{
 	numb: 1,
 	question: "What is the fat content of Low Fat Cream?",
-	answer: "25.0%",
+	answer: "b. 25.0%",
 	options: [
-		"15.0%",
-		"25.0%",
-		"40.0%",
-		"60.0%",
-		"None of the above"
+		"a. 15.0%",
+		"b. 25.0%",
+		"c. 40.0%",
+		"d. 60.0%",
+		"e. None of the above"
 	]
 	},
 	{
 	numb: 2,
 	question: "What is the fat content of Medium Fat Cream?",
-	answer: "40.0%",
+	answer: "a. 40.0%",
 	options: [
-		"40.0%",
-		"15.0%",
-		"25.0%",
-		"60.0%",
-		"None of the above"
+		"a. 40.0%",
+		"b. 15.0%",
+		"c. 25.0%",
+		"d. 60.0%",
+		"e. None of the above"
 	]
 	},
 	{
 	numb: 3,
 	question: "What is the fat content of High Fat Cream?",
-	answer: "60.0%",
+	answer: "b. 60.0%",
 	options: [
-		"25.0%",
-		"60.0%",
-		"40.0%",
-		"15.0%",
-		"None of the above"
+		"a. 25.0%",
+		"b. 60.0%",
+		"c. 40.0%",
+		"d. 15.0%",
+		"e. None of the above"
 	]
 	},
 	
 	{
 	numb: 4,
 	question: "______ means the product prepared by admixture of cow-milk or buffalo-milk or both with fresh skimmed milk or by admixture of cow or buffalo milk or both that has been standardised to fat and solids non-fat as per regulations",
-	answer: "Double Toned Milk",
+	answer: "b. Double Toned Milk",
 	options: [
-		"Flavoured Milk",
-		"Double Toned Milk",
-		"Skimmed Milk",
-		"Recombined Milk",
-		"None of the above"
+		"a. Flavoured Milk",
+		"b. Double Toned Milk",
+		"c. Skimmed Milk",
+		"d. Recombined Milk",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 5,
 	question: "Double Toned Milk means the product prepared by ",
-	answer: "All the above",
+	answer: "e. All the above",
 	options: [
-		"Toned Milk",
-		"admixture of cow-milk or buffalo-milk or both with fresh skimmed milk",
-		"admixture of cow or buffalo milk or both that has been standardised to fat and solids non-fat as per regulations",
-		"pasteurised and shall show a negative phosphatase test",
-		"All the above"
+		"a. Toned Milk",
+		"b. admixture of cow-milk or buffalo-milk or both with fresh skimmed milk",
+		"c. admixture of cow or buffalo milk or both that has been standardised to fat and solids non-fat as per regulations",
+		"d. pasteurised and shall show a negative phosphatase test",
+		"e. All the above"
 	]
 	},
 
 	{
 	numb: 6,
 	question: "When fat or non-fat milk solids are used to prepare Double Toned Milk, it shall be ensured that the product remains __________ and no deposition of solids take place on standing",
-	answer: "homogenous",
+	answer: "a. homogenous",
 	options: [
-		"homogenous",
-		"hetergenous",
-		"suspended",
-		"emulsified",
-		"None of the above"
+		"a. homogenous",
+		"b. hetergenous",
+		"c. suspended",
+		"d. emulsified",
+		"e. None of the above"
 	]
 	},
 	
 	{
 	numb: 7,
 	question: "_______, may contain nuts (whole,fragmented or ground), chocolate, coffee or any other edible flavour, edible food colour and cane sugar",
-	answer: "Flavoured milk",
+	answer: "a. Flavoured milk",
 	options: [
-		"Flavoured milk",
-		"Toned milk",
-		"Skimmed milk",
-		"Recombined milk",
-		"None of the above"
+		"a. Flavoured milk",
+		"b. Toned milk",
+		"c. Skimmed milk",
+		"d. Recombined milk",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 8,
 	question: "Flavoured milk shall be _________",
-	answer: "All the above",
+	answer: "d. All the above",
 	options: [
-		"Pasteurised",
-		"Sterilised",
-		"Boiled",
-		"All the above",
-		"None of the above"
+		"a. Pasteurised",
+		"b. Sterilised",
+		"c. Boiled",
+		"d. All the above",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 9,
 	question: "Flavoured milk may ________",
-	answer: "All the above",
+	answer: "d. All the above",
 	options: [
-		"contain nuts (whole, fragmented or ground), chocolate, coffee or any other edible flavour, edible food colours and cane sugar",
-		"shall be pasteruised, sterilised and boiled",
-		"shall be mentioned on the label",
-		"All the above",
-		"None of the above"
+		"a. contain nuts (whole, fragmented or ground), chocolate, coffee or any other edible flavour, edible food colours and cane sugar",
+		"b. shall be pasteruised, sterilised and boiled",
+		"c. shall be mentioned on the label",
+		"d. All the above",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 10,
 	question: "_____ means milk or a combination of buffalo or cow milk or a product prepared by a combination of both that has been standardised to fat and solids non fat percentage by adjustment/addition of milk solids to meet the regulations",
-	answer: "Full Cream Milk",
+	answer: "c. Full Cream Milk",
 	options: [
-		"Double Toned Milk",
-		"Skimmed Milk",
-		"Full Cream Milk",
-		"Pasteurised Milk",
-		"None of the above"
+		"a. Double Toned Milk",
+		"b. Skimmed Milk",
+		"c. Full Cream Milk",
+		"d. Pasteurised Milk",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 11,
 	question: "Full cream milk shall be _______",
-	answer: "pasteurised",
+	answer: "c. pasteurised",
 	options: [
-		"sterilised",
-		"boiled",
-		"pasteurised",
-		"All the above",
-		"None of the above"
+		"a. sterilised",
+		"b. boiled",
+		"c. pasteurised",
+		"d. All the above",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 12,
 	question: "Full cream milk means _______",
-	answer: "All the above",
+	answer: "d. All the above",
 	options: [
-		"means milk or a combination of buffalo or cow milk or a product prepared by a combination of both that has been standardised to fat and solids non fat percentage by adjustment/addition of milk solids to meet the regulations",
-		"shall be pasteurised and shall show a negative Phosphatase test",
-		"shall be packed in clean, sound and sanitary containers properly sealed to prevent contamination",
-		"All the above",
-		"None of the above"
+		"a. means milk or a combination of buffalo or cow milk or a product prepared by a combination of both that has been standardised to fat and solids non fat percentage by adjustment/addition of milk solids to meet the regulations",
+		"b. shall be pasteurised and shall show a negative Phosphatase test",
+		"c. shall be packed in clean, sound and sanitary containers properly sealed to prevent contamination",
+		"d. All the above",
+		"e. None of the above"
 	]
 	},
 	
 	{
 	numb: 13,
 	question: "_____ is the normal mammary secretion derived from complete milking of healthy milch animal without either addition thereto or extraction therefrom unless otherwise provided in the regulations",
-	answer: "Milk",
+	answer: "b. Milk",
 	options: [
-		"Colostrum",
-		"Milk",
-		"Fat",
-		"Whey",
-		"None of the above"
+		"a. Colostrum",
+		"b. Milk",
+		"c. Fat",
+		"d. Whey",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 14,
 	question: "Milk shall be free from _______",
-	answer: "Colostrum",
+	answer: "c. Colostrum",
 	options: [
-		"Fat",
-		"Whey",
-		"Colostrum",
-		"Casein",
-		"None of the above"
+		"a. Fat",
+		"b. Whey",
+		"c. Colostrum",
+		"d. Casein",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 15,
 	question: "Total urea content in milk shall not be more than _______",
-	answer: "700 ppm",
+	answer: "d. 700 ppm",
 	options: [
-		"200 ppm",
-		"600 ppm",
-		"500 ppm",
-		"700 ppm",
-		"None of the above"
+		"a. 200 ppm",
+		"b. 600 ppm",
+		"c. 500 ppm",
+		"d. 700 ppm",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 16,
 	question: "______ means a combination of milk of cow, buffalo, sheep, goat or any other milch animal and may be a combination of any of these milk which has been made and conforms to the standards",
-	answer: "Mixed milk",
+	answer: "c. Mixed milk",
 	options: [
-		"Toned milk",
-		"Double Toned milk",
-		"Mixed milk",
-		"Skimmed milk",
-		"None of the above"
+		"a. Toned milk",
+		"b. Double Toned milk",
+		"c. Mixed milk",
+		"d. Skimmed milk",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 17,
 	question: "_____ shall not contain any substance not found in milk unless specified in standards",
-	answer: "Milk products",
+	answer: "b. Milk products",
 	options: [
-		"Non-milk products",
-		"Milk products",
-		"Vegan products",
-		"Soy products",
-		"None of the above"
+		"a. Non-milk products",
+		"b. Milk products",
+		"c. Vegan products",
+		"d. Soy products",
+		"e. None of the above"
 	]
 	},
 
@@ -225,169 +225,169 @@ let data = [
 	{
 	numb: 18,
 	question: "Pasteurisation involves heating every part of milk to _________",
-	answer: "All the above",
+	answer: "d. All the above",
 	options: [
-		"63 deg C for at least 30 minutes",
-		"71.5 deg C for 15 seconds",
-		"135 deg C for 2-5 seconds",
-		"All the above",
-		"None of the above"
+		"a. 63 deg C for at least 30 minutes",
+		"b. 71.5 deg C for 15 seconds",
+		"c. 135 deg C for 2-5 seconds",
+		"d. All the above",
+		"e. None of the above"
 	]
 	},
 	
 	{
 	numb:19,
 	question: "Pasteurisation involves heating every part of milk to __________",
-	answer: "All the above",
+	answer: "d. All the above",
 	options: [
-		"280-302 deg F for 2-5 seconds",
-		"161 deg F for 15 seconds",
-		"145.4 deg F for 30 minutes",
-		"All the above",
-		"None of the above"
+		"a. 280-302 deg F for 2-5 seconds",
+		"b. 161 deg F for 15 seconds",
+		"c. 145.4 deg F for 30 minutes",
+		"d. All the above",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 20,
 	question: "Pasteruisation will show a ________",
-	answer: "negative Phosphatase test",
+	answer: "b. negative Phosphatase test",
 	options: [
-		"positive Phosphatase test",
-		"negative Phosphatase test",
-		"positive Catalase test",
-		"negatice Catalase test",
-		"None of the above"
+		"a. positive Phosphatase test",
+		"b. negative Phosphatase test",
+		"c. positive Catalase test",
+		"d. negatice Catalase test",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 21,
 	question: "All pasteurised milk of different class shall be cooled immediately to a temperature of _____",
-	answer: "10 deg C or less",
+	answer: "c. 10 deg C or less",
 	options: [
-		"10 deg C",
-		"15 deg C",
-		"10 deg C or less",
-		"15 deg C or less",
-		"None of the above"
+		"a. 10 deg C",
+		"b. 15 deg C",
+		"c. 10 deg C or less",
+		"d. 15 deg C or less",
+		"e. None of the above"
 	]
 	},
 	
 	{
 	numb: 22,
 	question: "____ means the homogenised product prepared from milk fat, non-fat milk solids and water",
-	answer: "Recombined milk",
+	answer: "c. Recombined milk",
 	options: [
-		"Double Toned milk",
-		"Full cream milk",
-		"Recombined milk",
-		"Skimmed milk",
-		"None of the above"
+		"a. Double Toned milk",
+		"b. Full cream milk",
+		"c. Recombined milk",
+		"d. Skimmed milk",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 23,
 	question: "Recombined milk means the _______ product prepared from milk fat, non-fat milk solids and water",
-	answer: "homogenised",
+	answer: "d. homogenised",
 	options: [
-		"reconstituted",
-		"blended",
-		"filtered",
-		"homogenised",
-		"None of the above"
+		"a. reconstituted",
+		"b. blended",
+		"c. filtered",
+		"d. homogenised",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 24,
 	question: "Recombined milk means the _______",
-	answer: "homogenised product prepared from milk fat, non-fat milk solids and water",
+	answer: "b. homogenised product prepared from milk fat, non-fat milk solids and water",
 	options: [
-		"shall be pasteurised and show a negative phosphatase test",
-		"homogenised product prepared from milk fat, non-fat milk solids and water",
-		"shall be pasteurised, sterilised or boiled",
-		"Both a & b",
-		"None of the above"
+		"a. shall be pasteurised and show a negative phosphatase test",
+		"b. homogenised product prepared from milk fat, non-fat milk solids and water",
+		"c. shall be pasteurised, sterilised or boiled",
+		"d. Both a & b",
+		"e. None of the above"
 	]
 	},
 	
 	{
 	numb: 25,
 	question: "______ means the product from milk from which almost all the milk fat has been removed mechanically",
-	answer: "Skimmed milk",
+	answer: "b. Skimmed milk",
 	options: [
-		"Full cream milk",
-		"Skimmed milk",
-		"Toned milk",
-		"Recombined milk",
-		"None of the above"
+		"a. Full cream milk",
+		"b. Skimmed milk",
+		"c. Toned milk",
+		"d. Recombined milk",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 26,
 	question: "_______ means heating milk in sealed container continuously to a temperature of either 115 deg C for 15 minutes or at least 130 deg C for a period of one second in continous flow",
-	answer: "Sterilisation",
+	answer: "a. Sterilisation",
 	options: [
-		"Sterilisation",
-		"Pasteurisation",
-		"Boiling",
-		"Ultra filtration",
-		"None of the above"
+		"a. Sterilisation",
+		"b. Pasteurisation",
+		"c. Boiling",
+		"d. Ultra filtration",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 27,
 	question: "Sterilisation means heating milk in sealed container continuously to a temperature of _______",
-	answer: "Both a and b",
+	answer: "d. Both a and b",
 	options: [
-		"115 deg C for 15 minutes",
-		"130 deg C for 1 second or more",
-		"Only b",
-		"Both a and b",
-		"None of the above"
+		"a. 115 deg C for 15 minutes",
+		"b. 130 deg C for 1 second or more",
+		"c. Only b",
+		"d. Both a and b",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 28,
 	question: "Sterilisation means _________",
-	answer: "All the above",
+	answer: "d. All the above",
 	options: [
-		"heating milk in sealed container continously to a temperature of either 115 deg C for 15 minutes or 130 deg C for 1 second or more",
-		"packed under aseptic condition in hermetically sealed container",
-		"preservation at room temperature for a period not less than 15 days from manufacturing date",
-		"All the above",
-		"None of the above"
+		"a. heating milk in sealed container continously to a temperature of either 115 deg C for 15 minutes or 130 deg C for 1 second or more",
+		"b. packed under aseptic condition in hermetically sealed container",
+		"c. preservation at room temperature for a period not less than 15 days from manufacturing date",
+		"d. All the above",
+		"e. None of the above"
 	]
 	},
 	
 	{
 	numb: 29,
 	question: "_____ means the product prepared by admixture of cow or buffalo milk or both with fresh skimmed milk or by admixture of cow or buffalo milk or both that has been standardised to fat and solids non-fat percentage as per regulation",
-	answer: "Toned milk",
+	answer: "b. Toned milk",
 	options: [
-		"Skimmed milk",
-		"Toned milk",
-		"Full cream milk",
-		"Recombined milk",
-		"None of the above"
+		"a. Skimmed milk",
+		"b. Toned milk",
+		"c. Full cream milk",
+		"d. Recombined milk",
+		"e. None of the above"
 	]
 	},
 
 	{
 	numb: 30,
 	question: "Toned milk means the product prepared by __________",
-	answer: "All the above",
+	answer: "e. All the above",
 	options: [
-		"Admixture of cow or buffalo milk or both with fresh skimmed milk",
-		"Admixture of cow or buffalo milk or both that has been standardised to fat and solids non-fat percentage by adjustment of milk solids",
-		"shall be pasteurised and shall show a negative phosphatase test",
-		"when fat and non-fat milk solids are used it shall be ensured that the product remains homogenous and no deposition of solids takes place on standing",
-		"All the above"
+		"a. admixture of cow or buffalo milk or both with fresh skimmed milk",
+		"b. admixture of cow or buffalo milk or both that has been standardised to fat and solids non-fat percentage by adjustment of milk solids",
+		"c. shall be pasteurised and shall show a negative phosphatase test",
+		"d. when fat and non-fat milk solids are used it shall be ensured that the product remains homogenous and no deposition of solids takes place on standing",
+		"e. All the above"
 	]
 	},
 	
