@@ -398,7 +398,7 @@ let data = [
 	options: [
 		"a. 6.0% and 9.0%",
 		"b. 5.0% and 9.0%",
-		"c. 6.0% and 9.5%"
+		"c. 6.0% and 9.5%",
 		"d. both a & b",
 		"e. None of the above"
 	]
