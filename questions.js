@@ -1211,9 +1211,7 @@ let data = [
 		"e. None of the above"
 	]
 	},
-	
-	
-	
+		
 ];
 
 
